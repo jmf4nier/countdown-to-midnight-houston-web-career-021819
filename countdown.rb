@@ -15,9 +15,7 @@ def countdown_with_sleep(start)
     start -= 1
     sleep(1)
   end
-  celebrate = "HAPPY NEW YEAR!"
-  puts celebrate
-  return celebrate
+  return "HAPPY NEW YEAR!"
 end
 
 
